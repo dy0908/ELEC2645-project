@@ -432,8 +432,8 @@ void menu1(){
         lcd.printString("4.Set Time", 0, 4);
         lcd.printString("5.Smart-light", 0, 5);
         sprintf(Key_s,"%d",key);
-        if (key>=0) lcd.printString(Key_s,0,4);
-        lcd.refresh();
+        //if (key>=0) lcd.printString(Key_s,0,4);
+        //lcd.refresh();
 }
 void menu_init(){
    lcd.init(LPH7366_1);        //initialise for LPH7366-1 LCD (Options are LPH7366_1 and LPH7366_6)
